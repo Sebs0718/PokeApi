@@ -1,0 +1,40 @@
+.page{
+    height: 100vh;
+    display: flex;
+}
+
+
+@media (max-width: 480px) {
+    .content-page-desactive{
+        display: none;
+    }
+}
+
+.content-page{
+    padding-left: 50px;
+    padding-top: 30px;
+    width: 85%;
+}
+
+.title{
+    border-bottom: solid 1px gray;
+    width: 100%;
+}
+
+.content-page-desactive{
+    padding-left: 50px;
+    padding-top: 30px;
+    width: 70%;
+}
+
+.pro-sidebar{
+    color: white !important;
+}
+
+.pro-icon-wrapper{
+    background-color: red !important;
+}
+
+.pro-sidebar-inner{
+    background-color: #FF1C1C !important;
+}
