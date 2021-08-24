@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/sebs0718.github.io/PokeApi/static/css/main.30f2aa04.chunk.css",
-    "main.js": "/sebs0718.github.io/PokeApi/static/js/main.7eb95c2f.chunk.js",
-    "main.js.map": "/sebs0718.github.io/PokeApi/static/js/main.7eb95c2f.chunk.js.map",
-    "runtime-main.js": "/sebs0718.github.io/PokeApi/static/js/runtime-main.5329fa63.js",
-    "runtime-main.js.map": "/sebs0718.github.io/PokeApi/static/js/runtime-main.5329fa63.js.map",
-    "static/css/2.d7ad1c10.chunk.css": "/sebs0718.github.io/PokeApi/static/css/2.d7ad1c10.chunk.css",
-    "static/js/2.b78db1e6.chunk.js": "/sebs0718.github.io/PokeApi/static/js/2.b78db1e6.chunk.js",
-    "static/js/2.b78db1e6.chunk.js.map": "/sebs0718.github.io/PokeApi/static/js/2.b78db1e6.chunk.js.map",
-    "index.html": "/sebs0718.github.io/PokeApi/index.html",
-    "static/css/2.d7ad1c10.chunk.css.map": "/sebs0718.github.io/PokeApi/static/css/2.d7ad1c10.chunk.css.map",
-    "static/css/main.30f2aa04.chunk.css.map": "/sebs0718.github.io/PokeApi/static/css/main.30f2aa04.chunk.css.map",
-    "static/js/2.b78db1e6.chunk.js.LICENSE.txt": "/sebs0718.github.io/PokeApi/static/js/2.b78db1e6.chunk.js.LICENSE.txt"
+    "main.css": "/PokeApi/static/css/main.30f2aa04.chunk.css",
+    "main.js": "/PokeApi/static/js/main.7eb95c2f.chunk.js",
+    "main.js.map": "/PokeApi/static/js/main.7eb95c2f.chunk.js.map",
+    "runtime-main.js": "/PokeApi/static/js/runtime-main.f3677107.js",
+    "runtime-main.js.map": "/PokeApi/static/js/runtime-main.f3677107.js.map",
+    "static/css/2.d7ad1c10.chunk.css": "/PokeApi/static/css/2.d7ad1c10.chunk.css",
+    "static/js/2.59312007.chunk.js": "/PokeApi/static/js/2.59312007.chunk.js",
+    "static/js/2.59312007.chunk.js.map": "/PokeApi/static/js/2.59312007.chunk.js.map",
+    "index.html": "/PokeApi/index.html",
+    "static/css/2.d7ad1c10.chunk.css.map": "/PokeApi/static/css/2.d7ad1c10.chunk.css.map",
+    "static/css/main.30f2aa04.chunk.css.map": "/PokeApi/static/css/main.30f2aa04.chunk.css.map",
+    "static/js/2.59312007.chunk.js.LICENSE.txt": "/PokeApi/static/js/2.59312007.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5329fa63.js",
+    "static/js/runtime-main.f3677107.js",
     "static/css/2.d7ad1c10.chunk.css",
-    "static/js/2.b78db1e6.chunk.js",
+    "static/js/2.59312007.chunk.js",
     "static/css/main.30f2aa04.chunk.css",
     "static/js/main.7eb95c2f.chunk.js"
   ]
