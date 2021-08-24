@@ -19,6 +19,7 @@
 .title{
     border-bottom: solid 1px gray;
     width: 100%;
+    margin-bottom: 40px;
 }
 
 .content-page-desactive{
@@ -37,4 +38,16 @@
 
 .pro-sidebar-inner{
     background-color: #FF1C1C !important;
+}
+
+.body{
+    overflow-y: auto;
+    height: 75vh;
+}
+.footer{
+    display: flex;
+}
+.card{
+    text-align: center !important;
+    justify-content: center !important;
 }

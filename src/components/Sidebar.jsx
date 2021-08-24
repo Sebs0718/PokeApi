@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ProSidebar, Menu, MenuItem, SidebarHeader, SidebarContent, SidebarFooter } from 'react-pro-sidebar';
 import { useDispatch, useSelector } from 'react-redux';
 import 'react-pro-sidebar/dist/css/styles.css';
