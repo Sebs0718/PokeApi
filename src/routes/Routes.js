@@ -6,6 +6,7 @@ import Games from '../pages/Games';
 import Locations from '../pages/Locations';
 import LocationMore from '../pages/LocationsMore';
 import Pokemons from '../pages/Pokemons';
+import PokemonsMore from '../pages/PokemonsMore';
 
 function Routes (){
     return(
@@ -17,6 +18,7 @@ function Routes (){
                 <Route exact path='/Pokemons' component={Pokemons} />
                 <Route exact path='/LocationMore/:id' component={LocationMore} />
                 <Route exact path='/GameMore/:id' component={GamesMore} />
+                <Route exact path='/PokemonMore/:id' component={PokemonsMore} />
             </Switch>
         </BrowserRouter>
     );

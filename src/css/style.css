@@ -44,10 +44,21 @@
     overflow-y: auto;
     height: 75vh;
 }
+
 .footer{
     display: flex;
 }
+
 .card{
     text-align: center !important;
     justify-content: center !important;
+}
+
+img.principal{
+    width: 50%;
+}
+
+.img{
+    justify-content: center;
+    text-align: center;
 }

@@ -16,7 +16,15 @@ function Games (){
     const getGames = async ()=>{
         try {
             const  { data }   = await Axios.get('https://pokeapi.co/api/v2/generation/');
-            setGames(data.results);
+            const newData = data.results.map((item,index)=>{
+                return(
+                    {
+                        name: item.name,
+                        id: index + 1
+                    }
+                )
+            })
+            setGames(newData);
         } catch (error) {
             console.error(error)
         }
@@ -57,19 +65,19 @@ function Games (){
                                         <div className='col-md-4 my-3' key={index}>
                                             <div className='card'>
                                                 <h6>{item.name}</h6>
-                                                <Link to={`/GameMore/${index + 1}`} >
+                                                <Link to={`/GameMore/${item.id}`} >
                                                     <button className='btn btn-success btn-sm'> Ver mas</button>
                                                 </Link>
                                             </div>
                                         </div>
                                     );
                                 }else{
-                                    if(index >= pagintate && index <= pagintate + 10){
+                                    if(index >= pagintate && index < pagintate + 10){
                                         return(
                                             <div className='col-md-4 my-3' key={index}>
                                                 <div className='card'>
                                                     <h6>{item.name}</h6>
-                                                    <Link to={`/GameMore/${index + 1}`} >
+                                                    <Link to={`/GameMore/${item.id}`} >
                                                         <button className='btn btn-success btn-sm'> Ver mas</button>
                                                     </Link>
                                                 </div>

@@ -13,7 +13,6 @@ function GamesMore(){
     const getGame = async ()=>{
         try {
             const { data } = await Axios.get(`https://pokeapi.co/api/v2/generation/${id}`);
-            console.log(data)
             const newData = {
                 name: data.name,
                 region: data.main_region.name,
