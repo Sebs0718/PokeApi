@@ -24,12 +24,10 @@ function Locations (){
 
     const nextPaginate = ()=>{
         setPaginate(pagintate + 10);
-        getLocations();
     }
 
     const previousPaginate = ()=>{
         setPaginate(pagintate - 10);
-        getLocations();
     }
 
     const getValueSearch = (e)=>{
@@ -49,7 +47,7 @@ function Locations (){
                 </div>
                 <div className='container body'>
                     <div className='row'>
-                        <h6 className='offset-md-1 col-md-6'>Busqueda de Pokémon</h6>
+                        <h6 className='offset-md-1 col-md-6'>Busqueda de locación</h6>
                         <input type='text' className='col-md-8 offset-md-1' id='search' placeholder='Buscar' onChange={getValueSearch} value={search}/>
                         <FlastList 
                             list={search != "" ? locations.filter((text) =>  text.name.toLowerCase().includes(search)) : locations}

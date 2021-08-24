@@ -1,6 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom';
 import Dashboard from '../pages/Dashboard';
+import GamesMore from '../pages/GamesMore';
 import Games from '../pages/Games';
 import Locations from '../pages/Locations';
 import LocationMore from '../pages/LocationsMore';
@@ -15,6 +16,7 @@ function Routes (){
                 <Route exact path='/Locations' component={Locations} />
                 <Route exact path='/Pokemons' component={Pokemons} />
                 <Route exact path='/LocationMore/:id' component={LocationMore} />
+                <Route exact path='/GameMore/:id' component={GamesMore} />
             </Switch>
         </BrowserRouter>
     );
