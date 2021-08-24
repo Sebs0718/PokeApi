@@ -13,7 +13,6 @@ function PokemonsMore(){
     const getPokemon = async ()=>{
         try {
             const { data } = await Axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`);
-            console.log(data)
             const newData = {
                 name: data.name,
                 experience: data.base_experience,

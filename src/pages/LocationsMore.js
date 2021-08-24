@@ -13,14 +13,12 @@ function LocationMore(){
     const getLocation = async ()=>{
         try {
             const { data } = await Axios.get(`https://pokeapi.co/api/v2/location/${id}`);
-            console.log(data)
             const newData = {
                 name: data.name,
                 region: data.region.name,
                 area: data.areas[0].name,
                 game: data.game_indices[0].generation.name
             }
-            console.log(newData);
             setLocation(newData);   
         } catch (error) {
             console.error(error)

@@ -18,7 +18,7 @@ function Sidebar (){
     return(
         <ProSidebar collapsed={sidebar}>
             <SidebarHeader>
-                <h2 className='mx-5' onClick={showSidebar}>PokeApi</h2>
+                <h2 className={sidebar ? 'mx-4 my-2' :'mx-5 my-2'} onClick={showSidebar}>{sidebar ? "P" : "PokeApi"}</h2>
             </SidebarHeader>
             <SidebarContent>
                 <Menu iconShape="square">
@@ -41,7 +41,7 @@ function Sidebar (){
                 </Menu>
             </SidebarContent>
             <SidebarFooter>
-                <h6 className='mx-4'>App Created for Sebastian</h6>
+                <h6 className='mx-4'>{sidebar ? "App" : "App Created for Sebastian"}</h6>
             </SidebarFooter>
         </ProSidebar>
     ); 
