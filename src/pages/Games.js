@@ -56,7 +56,7 @@ function Games (){
                 <div className='container body'>
                     <div className='row'>
                         <h6 className='offset-md-1 col-md-6'>Busqueda de Juegos</h6>
-                        <input type='text' className='col-md-8 offset-md-1' id='search' placeholder='Buscar' onChange={getValueSearch} value={search}/>
+                        <input type='text' className='col-sm-4 col-md-8 offset-md-1' id='search' placeholder='Buscar' onChange={getValueSearch} value={search}/>
                         <FlastList 
                             list={search != "" ? games.filter((text) =>  text.name.toLowerCase().includes(search)) : games}
                             renderItem={(item,index)=>{

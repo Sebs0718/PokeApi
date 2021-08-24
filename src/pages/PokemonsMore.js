@@ -43,26 +43,28 @@ function PokemonsMore(){
                         <div className='img'>
                             <img className='principal' src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`} alt='img' />
                         </div>
-                        <table className='table'>
-                            <thead>
-                                <tr>
-                                    <th>Experinecia Base</th>
-                                    <th>Hp</th>
-                                    <th>Ataque</th>
-                                    <th>Defensa</th>
-                                    <th>Velocidad</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>{pokemon.experience}</td>
-                                    <td>{pokemon.hp}</td>
-                                    <td>{pokemon.attack}</td>
-                                    <td>{pokemon.defense}</td>
-                                    <td>{pokemon.speed}</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div className='table-responsive '>
+                            <table className='table'>
+                                <thead>
+                                    <tr>
+                                        <th>Experinecia Base</th>
+                                        <th>Hp</th>
+                                        <th>Ataque</th>
+                                        <th>Defensa</th>
+                                        <th>Velocidad</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>{pokemon.experience}</td>
+                                        <td>{pokemon.hp}</td>
+                                        <td>{pokemon.attack}</td>
+                                        <td>{pokemon.defense}</td>
+                                        <td>{pokemon.speed}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div >

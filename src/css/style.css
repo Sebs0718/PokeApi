@@ -4,12 +4,6 @@
 }
 
 
-@media (max-width: 480px) {
-    .content-page-desactive{
-        display: none;
-    }
-}
-
 .content-page{
     padding-left: 50px;
     padding-top: 30px;
@@ -61,4 +55,21 @@ img.principal{
 .img{
     justify-content: center;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+
+    .title{
+        width: 90%;
+    }
+
+    .content-page{
+        padding-left: 25px;
+    }
+    .content-page-desactive{
+        display: none;
+    }
+    img.principal{
+        width: 60%;
+    }
 }
